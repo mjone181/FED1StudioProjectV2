@@ -1,0 +1,99 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Noto+Sans+KR:wght@300&display=swap');
+/*
+    Imported Google Fonts:
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'David Libre', serif;
+*/
+
+
+/*Head Styling*/
+head{
+    padding: 1.2em;
+}
+/*Header Styling*/
+header{
+    padding: 1.2em;
+}
+
+/*Heading 1 Styling*/
+h1 {
+    background-color: black;
+    color: red;
+    font-family: 'David Libre', serif;
+    font-weight:bold;
+}
+
+/*Nav Bar Styling*/
+nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Nav Bar Elements Styling*/
+nav ul{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: gray;    
+    display: inline-block;
+    padding: 8px;
+ }
+
+nav a{
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*Main Content Styling*/
+main{
+    padding: 1em, 1.5em;
+    text-align: center;
+}
+
+/*Body Styling*/
+body {
+    color: whitesmoke;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(../Images/sander-dewerte--jcP3xbN88w-unsplash.jpg);    
+}
+
+/*Heading 2 Styling*/
+h2 {
+    color: ghostwhite;
+    font-family: 'David Libre', serif;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+/*Heading 3 Styling*/
+h3 {
+    color: palevioletred;
+    font-family: 'David Libre', serif;
+    font-weight:bold;
+}
+
+/*Footer Styling*/
+footer{
+    color:white;
+    padding: 2em;
+    text-align: center;
+}
+
+/*Contact List Styling*/
+.contact-list{
+    list-style:none;
+}
+
+/*Courses Styling*/
+.courses {
+    padding: 2em 4em 2em 4em;
+    border: 1px solid white; 
+}
+
